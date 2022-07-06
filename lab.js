@@ -56,6 +56,7 @@ if (amysBirthYear === brittanisBirthYear){
 
 let temperature = 55;
 let rain = true;
+let notRain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -63,7 +64,21 @@ let rain = true;
 */
 
 //CODE HERE
+if (temperature >= 80 && rain === true){
+  console.log("one should wear a t-shirt and take an umbrella");
+}else if(temperature > 60 && temperature < 80 && rain === true){
+  console.log("one should wear a rain-jacket");
+}else {
+  console.log("one should wear a jacket and carry an umbrella")
+};
 
+if (temperature >= 80 && notRain === true){
+  console.log("one should wear just a t-shirt");
+}else if(temperature > 60 && temperature < 80 && notRain === true){
+  console.log("one should wear just a jacket");
+}else {
+  console.log("one should wear a thick jacket")
+};
 ////////// PROBLEM 5 //////////
 
 /*
