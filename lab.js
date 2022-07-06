@@ -28,6 +28,16 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+const amysName = 'Amy';
+const brittanisName = 'Brittani';
+
+if (amysAge > brittanisAge) {
+  console.log("Amy is older.");
+} else if (amysAge === brittanisAge){
+  console.log("They are the same age.");
+} else {
+  console.log("Brittani is older.")
+}
 
 ////////// PROBLEM 3 //////////
 
