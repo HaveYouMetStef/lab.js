@@ -106,8 +106,13 @@ for (let i = 1; i < 11; i++){
 */
 
 //CODE HERE
-
-
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// for (let i = arr.length - 1; i >= 0; i--){
+//   console.log(arr[i]);
+// };
+for (let i = 10; i >= 0; i--){
+  console.log(i);
+};
 ////////// PROBLEM 8 //////////
 
 let score = 0;
